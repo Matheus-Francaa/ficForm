@@ -1,0 +1,32 @@
+<div class="form-container" *ngIf="selectedForm">
+    <h2>{{ selectedForm }}</h2>
+    <form>
+        <label>Nome</label>
+        <input type="text" />
+
+        <label>E-mail</label>
+        <input type="email" />
+
+        <label>CPF</label>
+        <input type="text" />
+
+        <label>Data de Nascimento</label>
+        <div class="dob">
+            <select>
+                <option>Dia</option>
+            </select>
+            <select>
+                <option>Mês</option>
+            </select>
+            <select>
+                <option>Ano</option>
+            </select>
+        </div>
+
+        <button type="button" class="btn-primary">Inscreva-se</button>
+    </form>
+    <div class="footer-buttons">
+        <button class="btn-outline">Editar</button>
+        <button class="btn-success">Emitir Formulário</button>
+    </div>
+</div>

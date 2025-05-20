@@ -1,0 +1,49 @@
+.form-container {
+    padding: 2rem;
+    background-color: #e6dfdb;
+    margin-left: 220px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.dob {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary {
+    background-color: #0046be;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.btn-outline {
+    background-color: #0046be;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.btn-success {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}

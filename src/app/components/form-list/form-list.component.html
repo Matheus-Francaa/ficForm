@@ -1,0 +1,7 @@
+<div class="form-list-container">
+    <h4>Lista de Formulários Disponíveis</h4>
+    <div *ngFor="let form of forms" class="form-button">
+        <button (click)="selectForm(form)">{{ form }}</button>
+    </div>
+    <button class="access-button">Acessar</button>
+</div>
